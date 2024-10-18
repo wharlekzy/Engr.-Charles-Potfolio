@@ -1,0 +1,398 @@
+/* roboto
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  poppins:
+  
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+*/
+
+
+body {
+    background-color: #000;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    color: #fff;
+}
+
+header {
+    /* border: 2px solid red; */
+    background-color: #000;
+    color: #fff;
+    margin: 0 0 10em 0;
+    padding: 41px 74px 0 110px;
+}
+
+.header-section1 {
+    display: flex;
+    justify-content:space-around;
+    padding: 5px;
+    margin: 0 0  80px 0;
+}
+
+.surname {
+    color: #ddd;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 8px;
+    color:rgb(120, 150, 145);
+    font-size: 15px;
+}
+
+.navs {
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+
+.logo {
+    width: 80px;
+    margin: 0 0 0 10px;
+    
+}
+
+.case-studies {
+    width: 180px;
+    height: 60px;
+    padding:  7px;
+    background-color: #0fb;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000;
+    /* font-family: "poppins"; */
+    /* font-weight: 500; */
+
+}
+
+.location-text {
+    text-align: justify;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 24px;
+}
+
+.hire-me-btn {
+    background-color: #00FFBB;
+    padding: 15px 52px;
+    border-radius: 30px;
+    border: none;
+    width: 179px;
+    height: 60px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.header-section2 {
+    display: flex;
+    justify-content: space-around;
+    padding:0 0 0 50px;
+}
+
+.profile-pic {
+    border-top: 6px solid green;
+    border-left: 6px solid green;
+    width: 381px;
+    height: 481px;
+
+}
+
+.about-me-text {
+    width: 350px;
+    text-align: justify;
+}
+
+
+.about-me-section {
+    display: flex;
+    justify-content: space-around;
+    /* gap: 20em; */
+    /* margin: 0 64px; */
+}
+
+.services-images {
+    width: 95px;
+    height: 94px;
+    margin: 19px 0 0 15px;
+}
+
+.section-what-i-do {
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    left: 50%;
+}
+
+.my-services {
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+    margin: 15em 0 5em 0;
+    padding: 0 125px;
+}
+
+.ui-ux {
+    width: 379px;
+    height: 455px;
+    /* background-color: #333; */
+    border: 1px solid;
+    padding: 5px 10px;
+}
+
+
+.my-services-contents {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 379px;
+    height: 455px;
+    background-color: #1B1B1B;
+    border-left: 2px solid rgb(80, 77, 77);
+    border-right: 2px solid rgb(80, 77, 77);
+    border-bottom: 5px solid rgb(80, 77, 77);
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 8px 25px 0 rgba(0, 0, 0, 0.19);
+    /* overflow: hidden; */
+
+}
+
+.my-services-contents h2{
+    font-size: 24px;
+    font-weight: 700px;
+}
+
+.my-services-contents p{
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 24px;
+}
+
+.workflow-section {
+    display: flex;
+    justify-content: center;
+}
+
+.thoughts {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 0 125px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 8px 25px 0 rgba(0, 0, 0, 0.19);
+    margin: 0 0 5em 0;
+} 
+
+.thoughts-processes {
+    background-color:#1B1B1B;
+    width: 233px;
+    height: 279px;
+    border-top: 2px solid rgb(80, 77, 77);
+    border-left: 2px solid rgb(80, 77, 77);
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+.thoughts-processes-contents {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 0 0;
+    padding: 10px;
+}
+
+.thoughts-processes h2 {
+    color: #00FFBB;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+
+.project-section {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.portfolios1, .portfolios2 {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 0 125px;
+}
+
+.portfolios1 {
+    margin: 0 0 5em 0;
+}
+
+.portfolio-images {
+    width: 379px;
+    height: 679px;
+    /* border: 1px solid grey; */
+    border-radius: 10px;
+}
+
+.contact {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #00FFBB;
+    margin: 50px 0 -20px 0;
+}
+
+.contact h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.contact span {
+    width: 20px;
+    height: 20px;
+    color: #00FFBB;
+}
+
+.availability {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.details-section {
+    display: flex;
+    gap: 20em;
+    justify-content: center;
+    /* border: 2px solid red; */
+    padding: 0 64px;
+}
+
+.contact {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    margin: 0 0 80px 0;
+}
+
+.availability {
+    font-size: 16px;
+    width: 260px;
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.phone p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.phone-number, .email, .address {
+    display: flex;
+    gap: 20px;
+}
+.fullname-input {
+    width: 407px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.email-input, .number-input {
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    padding:5px;
+
+
+}
+
+.textarea {
+    width: 407px;
+    height: 120px;
+    resize: none;
+    padding: 10px;
+    /* border: 1px solid #777; */
+    border-radius: 10px;
+    border: 2px solid grey;
+
+}
+
+.phone-number, .email, .address {
+    display: flex;
+}
+
+.email-phone-container {
+    display: flex;
+    gap: 4px;
+}
+
+.logos {
+    width: 70px;
+    height: 70px;
+
+}
+
+.submit-btn {
+    width: 179px;
+    height: 60px;
+    padding: 15px 53px;
+    border-radius: 30px;
+    background-color: #00FFBB;
+}
+
+.submit-btn a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+}
+
+footer {
+    display: flex;
+    gap: 21em;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 0 64px 50px 64px;
+    margin: 100px 0 0 0;
+}
+
+.footer-logos {
+    width: 16.43px;
+    height: 16.43px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+

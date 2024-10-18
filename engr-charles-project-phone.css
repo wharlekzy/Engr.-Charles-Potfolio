@@ -1,0 +1,11 @@
+
+.get-in-touch {
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 2fr);
+    gap: 20px;
+    grid-auto-rows: minmax(100px, aqua);
+    margin: 50px 60px 0  370px;
+    /* margin: 40px 50% 0 50%; */
+}
